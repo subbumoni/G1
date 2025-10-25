@@ -1,0 +1,25 @@
+/* Schedule.css */
+
+.rbc-month-view {
+    height: auto !important;
+  }
+  
+  .rbc-month-row {
+    min-height: 120px; /* Change height of row */
+  }
+  
+  .rbc-date-cell {
+    height: 100px;
+    vertical-align: top;
+    padding: 5px;
+  }
+  
+  .rbc-event {
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 6px;
+    background-color:black ;
+    color: white;
+    word-wrap: break-word;
+  }
+  

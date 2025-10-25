@@ -1,0 +1,21 @@
+
+import React from "react";
+import { Outlet } from "react-router-dom";
+import Navbar from "./utility components/navbar/Navbar";
+import Footer from "./utility components/footer/Footer";
+import { Box } from "@mui/material";
+
+export default function Client() {
+    
+    return (
+      <>
+        <Navbar />
+
+        <Box sx={{minHeight:'75vh'}} component={'div'}>
+          <Outlet />
+        </Box>
+
+        <Footer />
+      </>
+    );
+}
