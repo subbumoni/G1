@@ -311,7 +311,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://g1-frontend-school.onrender.com",
+      "https://g1-f.onrender.com",
     ],
     credentials: true,
   })
